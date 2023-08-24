@@ -37,7 +37,7 @@ print("hello world");
   var media = (prova1+prova2)/2;
   print(media);
   if(media>=7){
-    print("aprovado");
+    print("aprovado, com média de $media");
   }
   else{
     print("reprovado");
@@ -46,4 +46,7 @@ print("hello world");
   if(prova1==10 || prova2==10){
     print("parabens pelo 10");
   }
+  //IF ternario
+  var resultado = (prova1 >=7) ? "aluno passou" : "o aluno reprovou";
+  print(resultado);
 }
