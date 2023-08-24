@@ -30,4 +30,20 @@ print("hello world");
   else if(trabalho_terminado == false){
     print("ainda estou no trabalho!");
   }
+
+//introdução IF
+  var prova1 = 9;
+  var prova2 = 8;
+  var media = (prova1+prova2)/2;
+  print(media);
+  if(media>=7){
+    print("aprovado");
+  }
+  else{
+    print("reprovado");
+  }
+  print(prova1 == prova2);
+  if(prova1==10 || prova2==10){
+    print("parabens pelo 10");
+  }
 }
